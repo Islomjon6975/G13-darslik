@@ -30,7 +30,40 @@
 // fruit !== 'olma' && console.log('bunday meva yoq');
 
 
-var num = 3
+// var num = 3
 
-num % 2 == 0 && console.log('juft son')
-num % 2 !== 0 && console.log('toq son')
+// num % 2 == 0 && console.log('juft son')
+// num % 2 !== 0 && console.log('toq son')
+
+
+
+
+// var son = 15;
+
+// son % 3 == 0 && son % 5 != 0 && console.log("3 ga karrali");
+// son % 5 == 0 && son % 3 != 0 && console.log('5 ga karrali');
+// son % 3 == 0 && son % 5 == 0 && console.log('3 va 5 ga karrali');
+
+
+// var meva = 'pamidor';
+
+// meva == 'olma' && console.log('10 000');
+// meva == 'nok' && console.log('12 000');
+// meva == 'tarvuz' && console.log('20 000');
+
+// var result = meva == 'olma' || meva == 'nok' || meva == 'tarvuz';
+
+// meva != result && console.log('bunday meva yoq');
+
+
+
+// var num = 9;
+
+// num % 2 == 0 && console.log(num+'-juft son');
+// num % 2 != 0 && console.log(num+'-toq son');
+
+// = == ===
+// >, >=, <, <=
+// &&, ||
+
+// !
