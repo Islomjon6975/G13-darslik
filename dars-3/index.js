@@ -27,3 +27,35 @@
 // substr() -> 2ta qiymat, 1-index, 2-nechta harf, stringlarni qirqib berishda ishlatiladi
 
 
+
+
+
+// var str = 'FoziL';
+
+// console.log(str.toLowerCase().endsWith('l'));
+// console.log(str[str.length - 1].toLowerCase().includes('l'));
+
+
+
+// var str1 = 'Web';
+// var str2 = 'Brain';
+
+// var newStr = str1;
+// str1 = str2;
+// str2 = newStr;
+
+// console.log(str1);
+// console.log(str2);
+
+
+// var year = 2022;
+
+// year % 4 == 0 && year != 0 && console.log('kabisa yili');
+// year % 4 != 0 && console.log('kabisa yili emas');
+
+
+var str = 'helol'
+
+console.log(str.indexOf('l', ));
+
+ 
