@@ -12,48 +12,74 @@
 // property
 
 // Decloration
-
-// Math.pow()
-function pow(num1, num2) {
-    return num1 ** num2
+function hello() {
+    return "hello world"
 }
 
-console.log(pow(2, 5))
-console.log(pow(4, 3))
-console.log(pow(5, 3))
+console.log(hello())
 
 
-// Math.sqrt()
-function sqrt(num1) {
-    return num1 ** (1/2)
+// Expression
+var hello1 = function() {
+    return 'hello world 1'
 }
 
-console.log(sqrt(4))
-console.log(sqrt(16))
-console.log(sqrt(64))
-console.log(sqrt(81))
+console.log(hello1())
+
+
+// Arrow
+var hello2 = () => {
+    return 'hello world 2'
+}
+
+console.log(hello2())
 
 
 
 
 
 
+function round(son) {
+    let a = son < Number.parseInt(son) + 0.5 && Number.parseInt(son) 
+    let b = son >= Number.parseInt(son) + 0.5 && Number.parseInt(son) + 1
+    let result = a || b
+    return result
+}
+
+console.log(round(3.5));
+
+function floor(son) {
+    let a = son < 0 && Number.parseInt(son) - 1
+    let b = son >=0 && Number.parseInt(son)
+    let result = a || b
+    return  result
+}
+
+console.log(floor(-3.9))
 
 
 
 
 
+function ceil(son) {
+    let a = son < 0 && Number.parseInt(son)
+    let b = son >= 0 && Number.parseInt(son) + 1
+    let result = a || b
+    return result
+}
+
+console.log(ceil(-3.5))
 
 
 
+function abs(son) {
+    let a = son < 0 && -1 * son
+    let b = son >=0 && son
+    let result = a || b
+    return result
+}
 
-
-
-
-
-
-
-
+console.log(abs(3))
 
 
 
