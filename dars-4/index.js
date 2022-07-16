@@ -107,8 +107,6 @@ console.log(abs(3))
 // join() -> array stringga aylantirishda ishlatamiz, qoshtirnoq qoyamiz
 
 
-
-
 // var str = 'WebBrain12 Aca3de4my56';
 // // WBA
 // // ebrain
