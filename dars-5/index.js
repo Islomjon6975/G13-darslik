@@ -66,38 +66,38 @@
 
 // console.log(fruit === 'olma' ? '5000' : fruit === 'nok' ? '7000' : fruit === 'uzum' ? '1000' : 'bunday meva yoq' )
 
+// Calculator
+// function plus(num1, num2) {
+//     return num1 + num2;
+// }
 
-function plus(num1, num2) {
-    return num1 + num2;
-}
+// function minus(num1, num2) {
+//     return num1 - num2;
+// }
 
-function minus(num1, num2) {
-    return num1 - num2;
-}
+// function multiplication(num1, num2) {
+//     return num1 * num2;
+// }
 
-function multiplication(num1, num2) {
-    return num1 * num2;
-}
+// function division(num1, num2) {
+//     return num1 / num2;
+// }
 
-function division(num1, num2) {
-    return num1 / num2;
-}
+// let amal = '%'
+// let n1 = 5;
+// let n2 = 7;
 
-let amal = '%'
-let n1 = 5;
-let n2 = 7;
-
-switch(amal) {
-    case '+' : console.log(plus(n1,n2))
-    break;
-    case '-' : console.log(minus(n1,n2))
-    break;
-    case '*' : console.log(multiplication(n1,n2))
-                break;
-    case ':' : console.log(division(n1,n2))
-                break;
-    default : console.log('error')
-}
+// switch(amal) {
+//     case '+' : console.log(plus(n1,n2))
+//     break;
+//     case '-' : console.log(minus(n1,n2))
+//     break;
+//     case '*' : console.log(multiplication(n1,n2))
+//                 break;
+//     case ':' : console.log(division(n1,n2))
+//                 break;
+//     default : console.log('error')
+// }
 
 
 // if(amal === '+') {
@@ -128,4 +128,101 @@ switch(amal) {
 // ternery -> 2ta yoki undan kop holatni ko'rib ketishimiz uchun, 
 // shart true qiymat qaytarsa ? dan keyingi qiymatni chiqazib beradi,
 // false qaytarse : dan keyingi qiymatga o'tadi.
-// agar : dan keyin yana ? bilan shart berilgan bo'lsa ularni ham shu holatda tekshirib ketadi.
+// // agar : dan keyin yana ? bilan shart berilgan bo'lsa ularni ham shu holatda tekshirib ketadi.
+
+
+
+
+
+
+
+// let meva = 'uzum'
+
+// if(meva === 'olma') {
+//     console.log('10 000');
+// } else if (meva === 'nok') {
+//     console.log('15 000')
+// } else {
+//     console.log('bunday meva yoq')
+// }
+
+// switch(meva) {
+//     case 'olma' : console.log('10 000')
+//                     break;
+//     case 'nok' : console.log('15 000')
+//                     break;
+//     default: console.log('bunday meva yoq')
+// }
+
+
+// console.log(meva === 'olma' ? '10 000' : meva === 'nok' ? '15 000' : 'bunday meva yoq');
+
+
+// // Decloration
+// function pow() {
+//     return 'pow'
+// }
+
+// pow()
+
+
+// // Expression
+// let pow = function() {
+//     return 'pow'
+// }
+
+// pow();
+
+// // Arrow
+// let pow = () => {
+//     return 'pow'
+// }
+
+// pow()
+
+
+let str = 'html team'
+// str.length
+// str.toUpperCase()
+// str.toLowerCase()
+// str.endsWith('l')
+// str.startsWith('h')
+
+// str.replace('h', 'j')
+// str.repeat(3)
+// str.concat()
+// str.indexOf('t')
+// str.slice(start, indexgacha)
+
+// str.padEnd('')
+// str.padStart('')
+// str.trim()
+// str.lastIndexOf('')
+// str.search()
+
+// str.includes()
+// str.sunstring()
+// str.substr(index, length)
+
+// Math
+// Math.pow(raqam, daraja)
+// Math.sqrt(64) -> 8
+// Math.cbrt(8) -> 2
+// Math.max()
+// Math.min()
+
+// Math.abs()
+// Math.random()
+// Math.round()
+// Math.floor();
+// Math.ceil();
+
+// Number.parseInt()
+// Number.parseFloat()
+// Number.isInteger()
+// NaN -> not a number
+// toFixed()
+
+
+
+
