@@ -1,22 +1,22 @@
 
-let str = 'WebBrain Academy'
+// let str = 'WebBrain Academy'
 
-// W  W
-// e  E
-// b  B
-// B  B
-// a  A
+// // W  W
+// // e  E
+// // b  B
+// // B  B
+// // a  A
 
-let str2 = ''
-for(let i = 0; i < str.length; i++) {
-    if(str[i] === str[i].toUpperCase()) {
-        str2 += str[i]
-    }
-}
+// let str2 = ''
+// for(let i = 0; i < str.length; i++) {
+//     if(str[i] === str[i].toUpperCase()) {
+//         str2 += str[i]
+//     }
+// }
 
-console.log(str2)
+// console.log(str2)
 
-console.log()
+// console.log()
 
 
 // WBA
@@ -74,3 +74,62 @@ console.log()
 
 
 
+// for(let i = 1; i <= 10; i+=2) {
+//     console.log(i);
+// };
+
+
+
+// while, do while
+
+// for(let i = 0; i<10; i++) {
+
+// }
+
+
+// let i = 0;
+// while(i < 0) {
+//     console.log("hello world", i);
+//     i++;
+// }
+
+
+// let k = 0;
+// do{
+//     console.log('hello', k)
+//     k++
+// }while(k < 0);
+
+
+// while -> for bilan bir xil vazifani bajaradi
+// do while -> eng kamida bir marta amal bajaradi
+
+
+// let str = '123456';
+// if(str.length % 2 === 0) {
+//     console.log((+str[str.length/2 - 1] + +str[str.length/2]) / 2)
+// } else if(str.length % 2 !== 0) {
+//     console.log(str[Math.floor(str.length/2)])
+// }
+
+
+// function orttirish(n, s) {
+//     let str = '';
+//     for(let i = 1; i <= n; i++){
+//         str+=s
+//     }
+//     return str;
+// }
+
+// console.log(orttirish(2, 'hello'))
+
+
+let str = '35821';
+let max = null;
+let min = null;
+let initial;
+for(let i = 0; i < str.length; i++) {
+    if(str[i] < str[i+1]){
+        max = str[i+1]
+    }
+}

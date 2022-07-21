@@ -4,9 +4,9 @@
 // push(), pop(), unshift(), shift()
 // map(), forEach(), filter(), find(), findIndex(), reduce()
 
-let arr = [1,2,3,5]
+// let arr = [1,2,3,5]
 
-console.log(arr.filter((value,index) => value !== 2))
+// console.log(arr.filter((value,index) => value !== 2))
 
 // sort() -> sartirovka qilish, 2ta a va b, 2 xonali sonlar control qilish
 // join() -> stringga o'girib beradi
@@ -28,3 +28,17 @@ console.log(arr.filter((value,index) => value !== 2))
 // reduce() -> array ichidagi sonlarni qo'shib beradi
 
 
+// let son = '467812';
+
+// let min = son.split('').sort()[0];
+// let max = son.split('').sort()[son.length-1];
+
+// console.log(max);
+
+
+
+// every, some, entries
+
+let str = '1234'
+
+console.log(str.split(''))

@@ -1,3 +1,7 @@
+// Array -> some, every
+// every -> array ichidagi har bir elementni tekshiradi, agar hammasi shartni qanoatlantirsa true qaytaradi aks holda false
+// some -> elementlari ichida bazilari shart qanoatlantirsa true, hech qaysi biri qanoatlantirmasa false
+
 // Object -> nonprimitive (callstack - id, heap - value)
 // Object - key: value
 // update, add, delete
