@@ -15,50 +15,74 @@
 // Destructure 
 
 
-let data = [
-    {
-        id: 1,
-        name: 'Islom',
-        address: {
-            city: 'Tashkent',
-            country: 'Uzbekistan',
-            street: ['20', 'main street', 'mahalla']
-        },
-        jobs: ['programming', 'teaching'],
+// let data = [
+//     {
+//         id: 1,
+//         name: 'Islom',
+//         address: {
+//             city: 'Tashkent',
+//             country: 'Uzbekistan',
+//             street: ['20', 'main street', 'mahalla']
+//         },
+//         jobs: ['programming', 'teaching'],
 
-    },
-    {
-        id: 2,
-        name: 'Jacck',
-        address: {
-            city: 'New York',
-            country: 'America',
-            street: ['20', 'main street', 'mahalla']
-        },
-        jobs: ['programming', 'teaching'],
+//     },
+//     {
+//         id: 2,
+//         name: 'Jacck',
+//         address: {
+//             city: 'New York',
+//             country: 'America',
+//             street: ['20', 'main street', 'mahalla']
+//         },
+//         jobs: ['programming', 'teaching'],
 
-    },
-    {
-        id: 3,
-        name: 'John',
-        address: {
-            city: 'Tashkent',
-            country: 'Uzbekistan',
-            street: ['20', 'main street', 'mahalla']
-        },
-        jobs: ['programming', 'teaching'],
+//     },
+//     {
+//         id: 3,
+//         name: 'John',
+//         address: {
+//             city: 'Tashkent',
+//             country: 'Uzbekistan',
+//             street: ['20', 'main street', 'mahalla']
+//         },
+//         jobs: ['programming', 'teaching'],
 
-    },
-]
+//     },
+// ]
 
 // uy -> id, nomi, manzili, nimalari bor, rooms, beds, bathroom, garage, necha metr kvadrat
 
 
-data.map(value => {
-    console.log(`id: ${value.id} \nname: ${value.name} \n${value.address.city} - ${value.address.country} - ${value.address.street.join(', ')} \n${value.jobs.join(", ")}`)
-    console.log('----------------------------------------');
-});
+// data.map(value => {
+//     console.log(`id: ${value.id} \nname: ${value.name} \n${value.address.city} - ${value.address.country} - ${value.address.street.join(', ')} \n${value.jobs.join(", ")}`)
+//     console.log('----------------------------------------');
+// });
 
 
 
+let obj = [
+    {
+        id: 1,
+        name: 'olma',
+        color: 'red',
+    },
+    {
+        id: 3,
+        name: 'olma',
+        
+    },
+    {
+        id: 1,
+        name: 'olma',
+        color: 'red',
+    },
+]
 
+obj.map(value => (
+    console.log(`${value?.id} - ${value.name} - ${value?.color}`)
+))
+
+let str;
+
+console.log(typeof str === 'undefined' ? '' : str)
